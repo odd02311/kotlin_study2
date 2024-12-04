@@ -16,7 +16,9 @@ fun main(){
     // list1[0] == list1.get(0)
 //    list1.add 변경 불가 호출만 가능
 
-    list1.
+    val newMap = list1.map { it * 10 } // list1에 있는 객체에 모두 10을 곱해서 map으로 변환
+
+    println(newMap.joinToString("/"))
 
     val diverseList = listOf(1, "안녕", 1.78, true)
 
